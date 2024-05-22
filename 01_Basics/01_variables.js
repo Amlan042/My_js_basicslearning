@@ -7,7 +7,7 @@ let accoutState;   //java takes this as "undefiend"
 // accountId = 346847 //changing const is not allowed
 accountEmail = "Amlan468@hotmail.com"
 accountPassword = "48479%737&"
-accountCity = "Hyderabad"
+accountCity = "Hyderabad"  
 
 /*Prefer not to use var
 bacause of issues in block scope and functional scope */

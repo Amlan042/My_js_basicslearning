@@ -22,6 +22,6 @@ console.log(typeof age);
 console.log(typeof isLoggedin);
 
 console.log(typeof null);  //Object
-console.log(typeof undefined); //undefined
+console.log(typeof undefined);   //undefined
 
 
