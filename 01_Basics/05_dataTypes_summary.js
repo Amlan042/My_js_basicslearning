@@ -30,3 +30,27 @@ console.log(bigNum);  //it does not return any type for bigInt
 // Arrays, Objects, Functions
 
 //JS is a dynamically  typed language
+
+
+//<===============MEMORIES======================>
+//stack(Primitive),Heap(Non-primitive)
+
+let  mychannelname = "AmlanChannel1"
+let Anothername = mychannelname     //here one copy of the variable myChannelName is provided to anothername in the Stack
+Anothername = "Amlan.cuChannel2"    //changing the anothername
+
+console.log(mychannelname);
+console.log(Anothername);
+
+let Person1 = {
+    email: "amlan654@gmail.com",
+    upi: "153653@ybl"
+}
+let Person2 = Person1;
+Person2.email = "amlan478@hotmail.com"
+ 
+console.log(Person2.email);
+console.log(Person1.email);  //the email of person1 will change because both person1 and person2
+//are referencing to the same object created in the heap memory
+
+
