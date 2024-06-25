@@ -1,2 +1,2 @@
-# My_js_tutorial_learning
+# My_js_basicslerning
 A code repo to learn JavaScript for beginners
